@@ -1,0 +1,39 @@
+/* line 2, ../sass/_index.scss */
+body .title {
+  background-color: h1;
+}
+/* line 7, ../sass/_index.scss */
+body .title h2 {
+  text-align: center;
+}
+/* line 10, ../sass/_index.scss */
+body .title h3 {
+  text-align: center;
+}
+/* line 16, ../sass/_index.scss */
+body .wrapper a div {
+  width: auto;
+}
+/* line 18, ../sass/_index.scss */
+body .wrapper a div img {
+  width: auto;
+  height: auto;
+}
+/* line 31, ../sass/_index.scss */
+body .wrapper a div {
+  width: auto;
+}
+/* line 33, ../sass/_index.scss */
+body .wrapper a div img {
+  width: auto;
+  height: auto;
+}
+/* line 47, ../sass/_index.scss */
+body .wrapper a div img {
+  width: auto;
+  height: auto;
+}
+/* line 58, ../sass/_index.scss */
+body footer legend {
+  text-align: center;
+}
