@@ -10,7 +10,7 @@
       <link href="Accueil/CSS/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Liste Projet William Monnet</title>
+    <title>Bienvenue | William Monnet</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link href="Accueil/CSS/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -22,34 +22,38 @@
 </head>
 <body>
     <div class="row">
-        <div class="title container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1>William Monnet</h1>
+        <header class="title container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 href="#" class="">William Monnet</h1>
             <h2>Développeur Web sur Toulouse et sa région</h2>
-        </div>
-        <div class="container-fluid row wrapper text-center center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        </header>
+        <article class="container-fluid row wrapper text-center center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="text-center">Bienvenue, vous retrouverez ici la liste des projets que j'ai effectué lors de mes diverses missions et formations personnels.</p>
             <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div>
-                    <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Site sous Drupal 8">
-                    <h3>Bienvenue sur mon site Drupal 8</h3>
+                <section>
+                    <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Site sous Drupal 8"
+                    class="img-fluid">
+                    <h3>Mon site sous Drupal 8</h3>
                     <p>En construction</p>
-                </div>
+                </section>
             </a>
             <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div>
-                    <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Site sous Syphony 3">
-                    <h3>Bienvenue sur mon site Syphony 3</h3>
+                <section>
+                    <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Site sous Syphony 3"
+                    class="img-fluid">
+                    <h3>Mon site sous Syphony 3</h3>
                     <p>En construction</p>
-                </div>
+                </section>
             </a>
             <a href="http://aebgymtoulouse.e-monsite.com/" class="mx-auto col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div>
-                    <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym">
+                <section>
+                    <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym"
+                    class="img-fluid">
                     <h3>Le site de L'AEB Gym Toulouse</h3>
-                </div>
+                </section>
             </a>
-        </div>
+        </article>
         <footer class="container-fluid center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <legend>&laquo; Le développeur est une machine qui transforme du café en code &raquo;</legend>
+            <legend class="container-fluid center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">&laquo; Le développeur est une machine qui transforme du café en code &raquo;</legend>
         </footer>
     </div>
 </body>

@@ -3,37 +3,45 @@ body {
   font-family: 'Noto Sans', sans-serif !important;
 }
 /* line 3, ../sass/_index.scss */
-body .title {
-  background-color: h1;
+body .row {
+  margin: 0px;
 }
-/* line 8, ../sass/_index.scss */
-body .title h2 {
+/* line 6, ../sass/_index.scss */
+body .row .title h1 {
+  white-space: nowrap;
+}
+/* line 9, ../sass/_index.scss */
+body .row .title h2 {
   text-align: center;
 }
 /* line 14, ../sass/_index.scss */
-body .wrapper a div {
+body .row .wrapper p {
+  margin: 0 auto 1rem auto;
+}
+/* line 18, ../sass/_index.scss */
+body .row .wrapper a section {
   width: auto;
 }
-/* line 16, ../sass/_index.scss */
-body .wrapper a div img {
-  width: auto;
-  height: auto;
-}
-/* line 29, ../sass/_index.scss */
-body .wrapper a div {
-  width: auto;
-}
-/* line 31, ../sass/_index.scss */
-body .wrapper a div img {
+/* line 20, ../sass/_index.scss */
+body .row .wrapper a section img {
   width: auto;
   height: auto;
 }
-/* line 45, ../sass/_index.scss */
-body .wrapper a div img {
+/* line 33, ../sass/_index.scss */
+body .row .wrapper a section {
+  width: auto;
+}
+/* line 35, ../sass/_index.scss */
+body .row .wrapper a section img {
   width: auto;
   height: auto;
 }
-/* line 56, ../sass/_index.scss */
-body footer legend {
+/* line 49, ../sass/_index.scss */
+body .row .wrapper a section img {
+  width: auto;
+  height: auto;
+}
+/* line 60, ../sass/_index.scss */
+body .row footer legend {
   text-align: center;
 }
