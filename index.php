@@ -28,7 +28,7 @@
         </header>
         <article class="container-fluid row wrapper text-center center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <p class="text-center">Bienvenue, vous retrouverez ici la liste des projets que j'ai effectué lors de mes diverses missions et formations personnels.</p>
-            <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <section>
                     <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Site sous Drupal 8"
                     class="img-fluid">
@@ -36,7 +36,7 @@
                     <p>En construction</p>
                 </section>
             </a>
-            <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <section>
                     <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Site sous Syphony 3"
                     class="img-fluid">
@@ -44,7 +44,7 @@
                     <p>En construction</p>
                 </section>
             </a>
-            <a href="http://aebgymtoulouse.e-monsite.com/" class="mx-auto col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <a href="http://aebgymtoulouse.e-monsite.com/" class="mx-auto col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <section>
                     <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym"
                     class="img-fluid">
