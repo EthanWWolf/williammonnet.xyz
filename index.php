@@ -12,8 +12,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Liste Projet William Monnet</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css" /> 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link href="Accueil/CSS/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -26,7 +24,6 @@
     <div class="row">
         <div class="title container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>William Monnet</h1>
-            <!--<h2>"Un développeur est une machine à transformer du café en code"</h2>-->
             <h2>Développeur Web sur Toulouse et sa région</h2>
         </div>
         <div class="container-fluid row wrapper text-center center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -44,7 +41,7 @@
                     <p>En construction</p>
                 </div>
             </a>
-            <a href="http://aebgymtoulouse.e-monsite.com/" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <a href="http://aebgymtoulouse.e-monsite.com/" class="mx-auto col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div>
                     <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym">
                     <h3>Le site de L'AEB Gym Toulouse</h3>
