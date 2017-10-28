@@ -1,47 +1,157 @@
 /* line 1, ../sass/_index.scss */
-body {
-  font-family: 'Noto Sans', sans-serif !important;
+html {
+  height: 100%;
+  background-color: #fff;
 }
-/* line 3, ../sass/_index.scss */
-body .row {
-  margin: 0px;
-}
-/* line 6, ../sass/_index.scss */
-body .row .title h1 {
-  white-space: nowrap;
-}
-/* line 9, ../sass/_index.scss */
-body .row .title h2 {
+/* line 5, ../sass/_index.scss */
+html body .site-wrapper {
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
-/* line 14, ../sass/_index.scss */
-body .row .wrapper p {
-  margin: 0 auto 1rem auto;
+/* line 15, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
 }
-/* line 18, ../sass/_index.scss */
-body .row .wrapper a section {
-  width: auto;
+@media (min-width: 62em) {
+  /* line 15, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner {
+    vertical-align: middle;
+  }
 }
-/* line 20, ../sass/_index.scss */
-body .row .wrapper a section img {
-  width: auto;
-  height: auto;
+/* line 21, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container {
+  margin-right: auto;
+  margin-left: auto;
 }
-/* line 33, ../sass/_index.scss */
-body .row .wrapper a section {
-  width: auto;
+@media (min-width: 62em) {
+  /* line 21, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner .cover-container {
+    width: 42rem;
+  }
+}
+/* line 27, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead {
+  margin-bottom: 2rem;
+  background-color: #333;
+}
+@media (min-width: 62em) {
+  /* line 27, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner .cover-container .masthead {
+    position: fixed;
+    top: 0;
+    width: 42rem;
+  }
 }
 /* line 35, ../sass/_index.scss */
-body .row .wrapper a section img {
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner {
+  padding: 30px;
+}
+/* line 37, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 48em) {
+  /* line 37, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .masthead-brand {
+    float: left;
+  }
+}
+@media (min-width: 48em) {
+  /* line 44, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead {
+    float: right;
+  }
+}
+/* line 48, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead a {
+  margin-left: 1rem;
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+/* line 56, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead :hover, html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead :focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+/* line 62, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead .active a, html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead .active :hover, html body .site-wrapper .site-wrapper-inner .cover-container .masthead .inner .nav-masthead .active :focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+/* line 69, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .cover {
+  padding: 0 1.5rem;
+}
+/* line 72, ../sass/_index.scss */
+html body .site-wrapper .site-wrapper-inner .cover-container .cover .lead .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+@media (min-width: 62em) {
+  /* line 78, ../sass/_index.scss */
+  html body .site-wrapper .site-wrapper-inner .cover-container .mastfoot {
+    width: 42rem;
+  }
+}
+/* line 86, ../sass/_index.scss */
+html body .row {
+  margin: 0px;
+}
+/* line 89, ../sass/_index.scss */
+html body .row .title h1 {
+  white-space: nowrap;
+}
+/* line 92, ../sass/_index.scss */
+html body .row .title h2 {
+  text-align: center;
+}
+/* line 97, ../sass/_index.scss */
+html body .row .wrapper p {
+  margin: 0 auto 1rem auto;
+}
+/* line 101, ../sass/_index.scss */
+html body .row .wrapper a section {
+  width: auto;
+}
+/* line 103, ../sass/_index.scss */
+html body .row .wrapper a section img {
   width: auto;
   height: auto;
 }
-/* line 49, ../sass/_index.scss */
-body .row .wrapper a section img {
+/* line 116, ../sass/_index.scss */
+html body .row .wrapper a section {
+  width: auto;
+}
+/* line 118, ../sass/_index.scss */
+html body .row .wrapper a section img {
   width: auto;
   height: auto;
 }
-/* line 60, ../sass/_index.scss */
-body .row footer legend {
+/* line 132, ../sass/_index.scss */
+html body .row .wrapper a section img {
+  width: auto;
+  height: auto;
+}
+/* line 143, ../sass/_index.scss */
+html body .row footer legend {
+  text-align: center;
+}
+/* line 146, ../sass/_index.scss */
+html body .row footer p {
+  font-style: italic;
+  font-size: 0.5rem;
   text-align: center;
 }

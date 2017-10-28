@@ -1,65 +1,154 @@
-body{
-    font-family: 'Noto Sans', sans-serif !important;
-    .row{
-        margin: 0px;
-        .title{
-            h1{
-                white-space:nowrap;
-            }
-            h2{
-                text-align: center;
+html{
+    height: 100%;
+    background-color: #fff;
+    body{
+        .site-wrapper{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+            display: table;
+            width: 100%;
+            height: 100%; /* For at least Firefox */
+            min-height: 100%;
+            box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+            .site-wrapper-inner{
+                display: table-cell;
+                vertical-align: top;
+                @media (min-width: 62em) {
+                    vertical-align: middle;
+                }
+                .cover-container{
+                    margin-right: auto;
+                    margin-left: auto;
+                    @media (min-width: 62em){
+                        width: 42rem;
+                    }
+                    .masthead{
+                        margin-bottom: 2rem;
+                        background-color: #333;
+                        @media (min-width: 62em){
+                            position: fixed;
+                            top: 0;
+                            width: 42rem;
+                        }
+                        .inner{
+                            padding: 30px;
+                            .masthead-brand{
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                @media (min-width: 48em){
+                                    float: left;
+                                }
+                            }
+                            .nav-masthead{
+                                @media (min-width: 48em){
+                                    float: right;
+                                }
+                                a{
+                                    margin-left: 1rem;
+                                    padding: .25rem 0;
+                                    font-weight: 700;
+                                    color: rgba(255,255,255,.5);
+                                    background-color: transparent;
+                                    border-bottom: .25rem solid transparent;
+                                }
+                                :hover, :focus{
+                                   background-color: transparent;
+                                    border-bottom-color: #a9a9a9;
+                                    border-bottom-color: rgba(255,255,255,.25); 
+                                }
+                                .active{
+                                    a, :hover, :focus{
+                                        border-bottom-color: rgba(255,255,255,.25);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .cover{
+                        padding: 0 1.5rem;
+                        .lead{
+                            .btn-lg{
+                                padding: .75rem 1.25rem;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                    .mastfoot{
+                        @media (min-width: 62em) {
+                            width: 42rem;
+                        }
+                    }
+                }
             }
         }
-        .wrapper{
-            p{
-                margin: 0 auto 1rem auto;
+        .row{
+            margin: 0px;
+            .title{
+                h1{
+                    white-space:nowrap;
+                }
+                h2{
+                    text-align: center;
+                }
             }
-            a{
-                section{
-                    width: auto;
-                    img{
+            .wrapper{
+                p{
+                    margin: 0 auto 1rem auto;
+                }
+                a{
+                    section{
                         width: auto;
-                        height: auto;
-                    }
-                    h3{
+                        img{
+                            width: auto;
+                            height: auto;
+                        }
+                        h3{
 
-                    }
-                    p{
+                        }
+                        p{
 
-                    }
-                }    
-            }
-            a{
-                section{
-                    width: auto;
-                    img{
+                        }
+                    }    
+                }
+                a{
+                    section{
                         width: auto;
-                        height: auto;
-                    }
-                    h3{
+                        img{
+                            width: auto;
+                            height: auto;
+                        }
+                        h3{
 
-                    }
-                    p{
+                        }
+                        p{
 
-                    }
-                }   
+                        }
+                    }   
+                }
+                a{
+                    section{
+                        img{
+                            width: auto;
+                            height: auto;
+                        }
+                        h3{
+
+                        }
+                    }   
+                }
             }
-            a{
-                section{
-                    img{
-                        width: auto;
-                        height: auto;
-                    }
-                    h3{
-
-                    }
-                }   
-            }
+            footer{
+                legend{
+                    text-align: center;
+                }
+                p{
+                    font-style: italic;
+                    font-size: 0.5rem;
+                    text-align: center;
+                }
+            }         
         }
-        footer{
-            legend{
-                text-align: center;
-            }
-        }         
     }
 }
