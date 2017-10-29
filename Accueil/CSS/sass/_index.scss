@@ -1,154 +1,124 @@
-html{
+html {
     height: 100%;
-    background-color: #fff;
-    body{
-        .site-wrapper{
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-            display: table;
-            width: 100%;
-            height: 100%; /* For at least Firefox */
-            min-height: 100%;
-            box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
-            .site-wrapper-inner{
-                display: table-cell;
-                vertical-align: top;
-                @media (min-width: 62em) {
-                    vertical-align: middle;
-                }
-                .cover-container{
-                    margin-right: auto;
-                    margin-left: auto;
-                    @media (min-width: 62em){
-                        width: 42rem;
-                    }
-                    .masthead{
-                        margin-bottom: 2rem;
-                        background-color: #333;
-                        @media (min-width: 62em){
-                            position: fixed;
-                            top: 0;
-                            width: 42rem;
-                        }
-                        .inner{
-                            padding: 30px;
-                            .masthead-brand{
-                                margin-top: 10px;
-                                margin-bottom: 10px;
-                                @media (min-width: 48em){
-                                    float: left;
-                                }
-                            }
-                            .nav-masthead{
-                                @media (min-width: 48em){
-                                    float: right;
-                                }
-                                a{
-                                    margin-left: 1rem;
-                                    padding: .25rem 0;
-                                    font-weight: 700;
-                                    color: rgba(255,255,255,.5);
-                                    background-color: transparent;
-                                    border-bottom: .25rem solid transparent;
-                                }
-                                :hover, :focus{
-                                   background-color: transparent;
-                                    border-bottom-color: #a9a9a9;
-                                    border-bottom-color: rgba(255,255,255,.25); 
-                                }
-                                .active{
-                                    a, :hover, :focus{
-                                        border-bottom-color: rgba(255,255,255,.25);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    .cover{
-                        padding: 0 1.5rem;
-                        .lead{
-                            .btn-lg{
-                                padding: .75rem 1.25rem;
-                                font-weight: 700;
-                            }
-                        }
-                    }
-                    .mastfoot{
-                        @media (min-width: 62em) {
-                            width: 42rem;
+    body {
+        background-color: #fff;
+        .navbar {
+            background-color: #fff;
+            margin-bottom: 55px;
+            .navbar-brand {
+                color: #e74c3c;
+            }
+            div {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: #2c3e50;
                         }
                     }
                 }
             }
         }
-        .row{
-            margin: 0px;
-            .title{
-                h1{
-                    white-space:nowrap;
-                }
-                h2{
-                    text-align: center;
-                }
+        .cover {
+            height: 100%;
+            background-color: #fff;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-content: center;
+            text-align: center;
+            background-image: url("../../Img/Banni%C3%A8re%20Web%20Developpement%20WM.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            a {
+                width: 50px;
+                height: 50px;
+                background-color: #e74c3c;
+                -webkit-mask-image: url("../../Img/Icons/arrow-with-circle-down.svg");
+                mask-image: url("../../Img/Icons/arrow-with-circle-down.svg");
+                margin-bottom: 50px;
             }
-            .wrapper{
-                p{
+        }
+        .row {
+            background-color: #fff;
+            margin: 0px;
+            h1{
+                margin: 50px auto 0px auto;
+                font-size: 50px;
+            }
+            p {
+                margin: 0 auto 50px auto;
+                text-align: center;
+            }
+            .wrapper {
+                p {
                     margin: 0 auto 1rem auto;
                 }
-                a{
-                    section{
+                a {
+                    position: relative;
+                    display: block;
+                    max-width: 650px;
+                    margin: 0 auto;
+                    img {
                         width: auto;
-                        img{
-                            width: auto;
-                            height: auto;
-                        }
-                        h3{
-
-                        }
-                        p{
-
-                        }
-                    }    
+                        height: auto;
+                    }
+                    section {
+                        /*position: absolute;
+                        bottom: 0;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        opacity: 0;
+                        color: #fff;
+                        background: rgba(240,95,64,.9);
+                        -webkit-transition: all .2s;
+                        -moz-transition: all .2s;
+                        transition: all .2s;*/
+                        h3 {}
+                        p {}
+                    }
                 }
-                a{
-                    section{
+                a {
+                    position: relative;
+                    display: block;
+                    max-width: 650px;
+                    margin: 0 auto;
+                    img {
                         width: auto;
-                        img{
-                            width: auto;
-                            height: auto;
-                        }
-                        h3{
-
-                        }
-                        p{
-
-                        }
-                    }   
+                        height: auto;
+                    }
+                    section {
+                        h3 {}
+                        p {}
+                    }
                 }
-                a{
-                    section{
-                        img{
-                            width: auto;
-                            height: auto;
-                        }
-                        h3{
-
-                        }
-                    }   
+                a {
+                    position: relative;
+                    display: block;
+                    max-width: 650px;
+                    margin: 0 auto;
+                    img {
+                        width: auto;
+                        height: auto;
+                    }
+                    section {
+                        h3 {}
+                    }
                 }
             }
-            footer{
-                legend{
+            footer {
+                legend {
                     text-align: center;
                 }
-                p{
+                p {
                     font-style: italic;
                     font-size: 0.5rem;
                     text-align: center;
                 }
-            }         
+            }
         }
     }
 }
