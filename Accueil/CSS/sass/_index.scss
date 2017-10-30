@@ -7,6 +7,9 @@ html {
             margin-bottom: 55px;
             .navbar-brand {
                 color: #e74c3c;
+                &:hover{
+                    color: #2c3e50;
+                }
             }
             div {
                 .navbar-nav {
@@ -46,12 +49,15 @@ html {
             h1{
                 margin: 50px auto 0px auto;
                 font-size: 50px;
+                color:#2c3e50;
             }
             p {
                 margin: 0 auto 50px auto;
                 text-align: center;
+                color:#2c3e50;
             }
             .wrapper {
+                padding: 0px;
                 p {
                     margin: 0 auto 1rem auto;
                 }
@@ -60,6 +66,7 @@ html {
                     display: block;
                     max-width: 650px;
                     margin: 0 auto;
+                    padding: 0px;
                     img {
                         width: auto;
                         height: auto;
@@ -83,18 +90,70 @@ html {
                             width: 100%;
                             transform: translateY(-50%);
                             text-align: center;
-                            h3 {}
-                            p {}
+                            h3 {
+                                color: #fff;
+                            }
+                            p {
+                                color: #fff;
+                            }
                         }
                         &:hover{
-                            opacity: 1;
+                            opacity: 0.9;
+                        }
+                    }
+                }
+            }
+            .contact-container {
+                padding: 50px 0px;
+                background-color: #e74c3c;
+                h2{
+                    text-align: center;
+                    font-size: 50px;
+                    color:#fff;
+                }
+                p{
+                    color:#fff;
+                }
+                .contact{
+                    background-color: #e74c3c;
+                    .contact-left{
+                        text-align: center;
+                        .phone{
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 auto;
+                            background-color: #fff;
+                            -webkit-mask-image: url("../../Img/Icons/phone.svg");
+                            mask-image: url("../../Img/Icons/phone.svg");
+                            mask-repeat: no-repeat;
+                        }
+                        p{
+                           color:#fff; 
+                        }
+                    }
+                    .contact-right{
+                        text-align: center;
+                        .mail{
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 auto;
+                            background-color: #fff;
+                            -webkit-mask-image: url("../../Img/Icons/mail.svg");
+                            mask-image: url("../../Img/Icons/mail.svg");
+                            mask-repeat: no-repeat;
+                        }
+                        a{
+                           color:#fff; 
                         }
                     }
                 }
             }
             footer {
+                background-color: #fff;
+                padding: 0px;
                 legend {
                     text-align: center;
+                    color: #e74c3c;
                 }
                 p {
                     font-style: italic;

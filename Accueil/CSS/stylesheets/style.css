@@ -15,11 +15,15 @@ html body .navbar {
 html body .navbar .navbar-brand {
   color: #e74c3c;
 }
-/* line 14, ../sass/_index.scss */
+/* line 10, ../sass/_index.scss */
+html body .navbar .navbar-brand:hover {
+  color: #2c3e50;
+}
+/* line 17, ../sass/_index.scss */
 html body .navbar div .navbar-nav .nav-item .nav-link {
   color: #2c3e50;
 }
-/* line 21, ../sass/_index.scss */
+/* line 24, ../sass/_index.scss */
 html body .cover {
   height: 100%;
   background-color: #fff;
@@ -34,7 +38,7 @@ html body .cover {
   background-position: center;
   background-size: cover;
 }
-/* line 34, ../sass/_index.scss */
+/* line 37, ../sass/_index.scss */
 html body .cover a {
   width: 50px;
   height: 50px;
@@ -43,38 +47,45 @@ html body .cover a {
   mask-image: url("../../Img/Icons/arrow-with-circle-down.svg");
   margin-bottom: 50px;
 }
-/* line 43, ../sass/_index.scss */
+/* line 46, ../sass/_index.scss */
 html body .row {
   background-color: #fff;
   margin: 0px;
 }
-/* line 46, ../sass/_index.scss */
+/* line 49, ../sass/_index.scss */
 html body .row h1 {
   margin: 50px auto 0px auto;
   font-size: 50px;
+  color: #2c3e50;
 }
-/* line 50, ../sass/_index.scss */
+/* line 54, ../sass/_index.scss */
 html body .row p {
   margin: 0 auto 50px auto;
   text-align: center;
+  color: #2c3e50;
 }
-/* line 55, ../sass/_index.scss */
+/* line 59, ../sass/_index.scss */
+html body .row .wrapper {
+  padding: 0px;
+}
+/* line 61, ../sass/_index.scss */
 html body .row .wrapper p {
   margin: 0 auto 1rem auto;
 }
-/* line 58, ../sass/_index.scss */
+/* line 64, ../sass/_index.scss */
 html body .row .wrapper a {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  padding: 0px;
 }
-/* line 63, ../sass/_index.scss */
+/* line 70, ../sass/_index.scss */
 html body .row .wrapper a img {
   width: auto;
   height: auto;
 }
-/* line 67, ../sass/_index.scss */
+/* line 74, ../sass/_index.scss */
 html body .row .wrapper a section {
   background-color: #e74c3c;
   position: absolute;
@@ -89,7 +100,7 @@ html body .row .wrapper a section {
   -moz-transition: all .2s;
   transition: all .2s;
 }
-/* line 80, ../sass/_index.scss */
+/* line 87, ../sass/_index.scss */
 html body .row .wrapper a section div {
   position: absolute;
   top: 50%;
@@ -97,15 +108,84 @@ html body .row .wrapper a section div {
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 89, ../sass/_index.scss */
-html body .row .wrapper a section:hover {
-  opacity: 1;
+/* line 93, ../sass/_index.scss */
+html body .row .wrapper a section div h3 {
+  color: #fff;
 }
 /* line 96, ../sass/_index.scss */
-html body .row footer legend {
+html body .row .wrapper a section div p {
+  color: #fff;
+}
+/* line 100, ../sass/_index.scss */
+html body .row .wrapper a section:hover {
+  opacity: 0.9;
+}
+/* line 106, ../sass/_index.scss */
+html body .row .contact-container {
+  padding: 50px 0px;
+  background-color: #e74c3c;
+}
+/* line 109, ../sass/_index.scss */
+html body .row .contact-container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+/* line 114, ../sass/_index.scss */
+html body .row .contact-container p {
+  color: #fff;
+}
+/* line 117, ../sass/_index.scss */
+html body .row .contact-container .contact {
+  background-color: #e74c3c;
+}
+/* line 119, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-left {
   text-align: center;
 }
-/* line 99, ../sass/_index.scss */
+/* line 121, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-left .phone {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-mask-image: url("../../Img/Icons/phone.svg");
+  mask-image: url("../../Img/Icons/phone.svg");
+  mask-repeat: no-repeat;
+}
+/* line 130, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-left p {
+  color: #fff;
+}
+/* line 134, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-right {
+  text-align: center;
+}
+/* line 136, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-right .mail {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-mask-image: url("../../Img/Icons/mail.svg");
+  mask-image: url("../../Img/Icons/mail.svg");
+  mask-repeat: no-repeat;
+}
+/* line 145, ../sass/_index.scss */
+html body .row .contact-container .contact .contact-right a {
+  color: #fff;
+}
+/* line 151, ../sass/_index.scss */
+html body .row footer {
+  background-color: #fff;
+  padding: 0px;
+}
+/* line 154, ../sass/_index.scss */
+html body .row footer legend {
+  text-align: center;
+  color: #e74c3c;
+}
+/* line 158, ../sass/_index.scss */
 html body .row footer p {
   font-style: italic;
   font-size: 0.5rem;

@@ -28,14 +28,14 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        <a class="nav-link js-scroll-trigger" href="#project">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -77,6 +77,20 @@
                         </div>
                     </section>
                 </a>
+            </article>   
+            <article id="contact" class="container-fluid contact-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2 >Restons en contact !</h2>
+                <p>Envie de travailler avec moi? Appelez-moi ou envoyez-moi un courriel et je vous répondrais dans les plus brefs délais.</p>
+                <div class="row contact">
+                    <div class="contact-left col-sm-12 col-md-6">
+                        <p class="phone" aria-hidden="true"></p>
+                        <p>06 65 30 63 09</p>
+                    </div>
+                    <div class="contact-right col-sm-12 col-md-6">
+                        <p class="mail" aria-hidden="true"></p>
+                        <a href="mailto:monnetwilliam@gmail.com">monnetwilliam@gmail.com</a>
+                    </div>
+                </div>
             </article>
             <footer class="container-fluid center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <legend class="container-fluid center-block col-xs-12 col-sm-12 col-md-12 col-lg-12">&laquo; Le développeur est une machine qui transforme du café en code &raquo;</legend>
