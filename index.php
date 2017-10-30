@@ -54,21 +54,27 @@
                 <a href="http://williammonnet.xyz" class="col-sm-6 col-lg-4">
                     <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Site sous Drupal 8" class="img-fluid">
                     <section>
-                        <h3>Mon site sous Drupal 8</h3>
-                        <p>En construction</p>
+                        <div>
+                            <h3>Mon site sous Drupal 8</h3>
+                            <p>En construction</p>
+                        </div>
                     </section>
                 </a>
                 <a href="http://williammonnet.xyz" class="col-sm-6 col-lg-4">
                     <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Site sous Syphony 3" class="img-fluid">
                     <section>
-                        <h3>Mon site sous Symphony 3</h3>
-                        <p>En construction</p>
+                        <div>
+                            <h3>Mon site sous Symphony 3</h3>
+                            <p>En construction</p>
+                        </div>
                     </section>
                 </a>
                 <a href="http://aebgymtoulouse.e-monsite.com/" class="col-sm-6 col-lg-4">
                     <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym" class="img-fluid">
                     <section>
-                        <h3>Le site de L'AEB Gym Toulouse</h3>
+                        <div>
+                            <h3>Le site de L'AEB Gym Toulouse</h3>
+                        </div>
                     </section>
                 </a>
             </article>

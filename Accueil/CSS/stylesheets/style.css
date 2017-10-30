@@ -76,7 +76,8 @@ html body .row .wrapper a img {
 }
 /* line 67, ../sass/_index.scss */
 html body .row .wrapper a section {
-  /*position: absolute;
+  background-color: #e74c3c;
+  position: absolute;
   bottom: 0;
   display: block;
   width: 100%;
@@ -84,40 +85,27 @@ html body .row .wrapper a section {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240,95,64,.9);
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
-  transition: all .2s;*/
+  transition: all .2s;
 }
-/* line 84, ../sass/_index.scss */
-html body .row .wrapper a {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto;
+/* line 80, ../sass/_index.scss */
+html body .row .wrapper a section div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 /* line 89, ../sass/_index.scss */
-html body .row .wrapper a img {
-  width: auto;
-  height: auto;
+html body .row .wrapper a section:hover {
+  opacity: 1;
 }
-/* line 98, ../sass/_index.scss */
-html body .row .wrapper a {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto;
-}
-/* line 103, ../sass/_index.scss */
-html body .row .wrapper a img {
-  width: auto;
-  height: auto;
-}
-/* line 113, ../sass/_index.scss */
+/* line 96, ../sass/_index.scss */
 html body .row footer legend {
   text-align: center;
 }
-/* line 116, ../sass/_index.scss */
+/* line 99, ../sass/_index.scss */
 html body .row footer p {
   font-style: italic;
   font-size: 0.5rem;

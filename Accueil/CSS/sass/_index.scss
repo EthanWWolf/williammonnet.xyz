@@ -65,7 +65,8 @@ html {
                         height: auto;
                     }
                     section {
-                        /*position: absolute;
+                        background-color: #e74c3c;
+                        position: absolute;
                         bottom: 0;
                         display: block;
                         width: 100%;
@@ -73,39 +74,21 @@ html {
                         text-align: center;
                         opacity: 0;
                         color: #fff;
-                        background: rgba(240,95,64,.9);
                         -webkit-transition: all .2s;
                         -moz-transition: all .2s;
-                        transition: all .2s;*/
-                        h3 {}
-                        p {}
-                    }
-                }
-                a {
-                    position: relative;
-                    display: block;
-                    max-width: 650px;
-                    margin: 0 auto;
-                    img {
-                        width: auto;
-                        height: auto;
-                    }
-                    section {
-                        h3 {}
-                        p {}
-                    }
-                }
-                a {
-                    position: relative;
-                    display: block;
-                    max-width: 650px;
-                    margin: 0 auto;
-                    img {
-                        width: auto;
-                        height: auto;
-                    }
-                    section {
-                        h3 {}
+                        transition: all .2s;
+                        div{
+                            position: absolute;
+                            top: 50%;
+                            width: 100%;
+                            transform: translateY(-50%);
+                            text-align: center;
+                            h3 {}
+                            p {}
+                        }
+                        &:hover{
+                            opacity: 1;
+                        }
                     }
                 }
             }
