@@ -14,6 +14,7 @@ html {
             margin-bottom: 55px;
             .navbar-brand {
                 color: #e74c3c;
+                font-size: 1.5rem;
                 &:hover{
                     color: #2c3e50;
                 }
@@ -44,9 +45,11 @@ html {
             a {
                 width: 50px;
                 height: 50px;
+                padding: 2rem;
                 background-color: #e74c3c;
                 -webkit-mask-image: url("../../Img/Icons/arrow-with-circle-down.svg");
                 mask-image: url("../../Img/Icons/arrow-with-circle-down.svg");
+                mask-repeat: no-repeat;
                 margin-bottom: 50px;
             }
         }
@@ -110,11 +113,11 @@ html {
                     position: relative;
                     display: flex;
                     align-items: center;
+                    justify-content: center;
                     max-width: 650px;
                     margin: 0 auto;
                     padding: 0px;
-                    min-height: 165px;
-                    height: 100%;
+                    //min-height: 165px;
                     img {
                         width: auto;
                         height: auto;
@@ -156,7 +159,7 @@ html {
                 min-height: 270px;
                 background-color: #2c3e50;
                 flex-direction: column;
-                padding: 25px 0px;
+                padding: 50px 0 0px;
                 h2 {
                     text-align: center;
                     color: #fff;

@@ -20,7 +20,7 @@
 
     <body>
         <nav id="Nav" class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">William Monnet</a>
+            <a class="navbar-brand js-scroll-trigger" href="williammonnet.xyz">William Monnet</a>
             <div>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,43 +47,43 @@
         <article data-spy="scroll" data-target="#myNavbar" id="suite" class="presentation row">
             <h1>Développeur Web sur Toulouse et sa région</h1>
             <p>Bienvenue, vous retrouverez ici la liste des projets que j'ai effectué lors de mes diverses missions et formations personnels.</p>
-            <section id="tripoint" class="container-fluid row tripoint col-sm-12 col-lg-12">
-                <div class="col-sm-4 col-md-4">
+            <section id="tripoint" class="container-fluid row tripoint col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xd-12 col-sm-12 col-md-12 col-lg-4">
                     <p class="disponibilite" aria-hidden="true"></p>
                     <h4>Disponibilité</h4>
                     <p>Je suis disponible immédiatement.</p>
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-xd-12 col-sm-12 col-md-12 col-lg-4">
                     <p class="toutprojet" aria-hidden="true"></p>
                     <h4>Projet</h4>
                     <p>Tout type de projet est susceptible de m'intéresser, quelque soit le secteur.</p>
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-xd-12 col-sm-12 col-md-12 col-lg-4">
                     <p class="formation" aria-hidden="true"></p>
                     <h4>Formation</h4>
                     <p>Openclassroom me permettant de rester à jour et de monter en compétence.</p>
                 </div>
             </section>
-            <section id="project" class="container-fluid row projet col-sm-12 col-lg-12 ">
-                <a href="http://williammonnet.xyz" class="col-sm-6 col-lg-4">
-                    <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Site sous Drupal 8" class="img-fluid">
+            <section id="project" class="container-fluid row projet col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="Accueil/Img/Logo%20Drupal%208.png" alt="Projet sous Drupal 8" class="img-fluid">
                     <section>
                         <div>
-                            <h3>Mon site sous Drupal 8</h3>
+                            <h3>Mon projet sous Drupal 8</h3>
                             <p>En construction</p>
                         </div>
                     </section>
                 </a>
-                <a href="http://williammonnet.xyz" class="col-sm-6 col-lg-4">
-                    <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Site sous Syphony 3" class="img-fluid">
+                <a href="http://williammonnet.xyz" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="Accueil/Img/Logo%20Symfony%203.png" alt="Projet sous Syphony 3" class="img-fluid">
                     <section>
                         <div>
-                            <h3>Mon site sous Symphony 3</h3>
+                            <h3>Mon projet sous Symphony 3</h3>
                             <p>En construction</p>
                         </div>
                     </section>
                 </a>
-                <a href="http://aebgymtoulouse.e-monsite.com/" class="col-sm-6 col-lg-4">
+                <a href="http://aebgymtoulouse.e-monsite.com/" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <img src="Accueil/Img/Site%20AEB%20Gym%20Toulouse.png" alt="Site Aeb Gym" class="img-fluid">
                     <section>
                         <div>
@@ -92,7 +92,7 @@
                     </section>
                 </a>
             </section>
-            <section  id="social_network" class="row container-fluid social-network-container col-sm-12 col-lg-12">
+            <section  id="social_network" class="row container-fluid social-network-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h2>Retrouvez-moi sur les réseau sociaux</h2>
                 <div class="row social-network">
                     <a href="https://www.linkedin.com/in/williammonnet/" class="col-sm-4 col-md-4">
@@ -109,22 +109,22 @@
                     </a>
                 </div>
             </section>
-            <section id="contact" class="row container-fluid contact-container col-sm-12 col-lg-12">
+            <section id="contact" class="row container-fluid contact-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h2 >Restons en contact !</h2>
                 <p>Envie de travailler avec moi? Appelez-moi ou envoyez-moi un courriel et je vous répondrais dans les plus brefs délais.</p>
                 <div class="row contact">
-                    <div class="contact-left col-sm-12 col-md-6">
+                    <div class="contact-left col-xd-12 col-sm-12 col-md-12 col-lg-6">
                         <p class="phone" aria-hidden="true"></p>
                         <p>06 65 30 63 09</p>
                     </div>
-                    <div class="contact-right col-sm-12 col-md-6">
+                    <div class="contact-right col-xd-12 col-sm-12 col-md-12 col-lg-4">
                         <p class="mail" aria-hidden="true"></p>
                         <a href="mailto:monnetwilliam@gmail.com">monnetwilliam@gmail.com</a>
                     </div>
                 </div>
             </section>
         </article>
-        <footer class="row footer container-fluid col-sm-12 col-lg-12">
+        <footer class="row footer container-fluid col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <legend class="container-fluid center-block  col-sm-12 col-lg-12">&laquo; Le développeur est une machine qui transforme du café en code &raquo;</legend>
         </footer>
         <!-- Placed at the end of the document so the pages load faster -->
