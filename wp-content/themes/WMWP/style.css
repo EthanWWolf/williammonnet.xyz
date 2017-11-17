@@ -1,0 +1,309 @@
+/*
+Theme Name: Le theme de williammonnet.xyz
+Author: William Monnet
+Author URI: http://williammonnet.xyz
+Description: Le theme wordpress du site
+*/
+/* line 1, CSS/sass/_index.scss */
+* {
+  position: relative;
+}
+
+/* line 4, CSS/sass/_index.scss */
+html {
+  height: 100%;
+}
+/* line 5, CSS/sass/_index.scss */
+html .row {
+  margin: 0px;
+}
+/* line 9, CSS/sass/_index.scss */
+html body {
+  position: relative;
+  background-color: #fff;
+}
+/* line 12, CSS/sass/_index.scss */
+html body .navbar {
+  background-color: #fff;
+  margin-bottom: 55px;
+}
+/* line 15, CSS/sass/_index.scss */
+html body .navbar .navbar-brand {
+  color: #e74c3c;
+  font-size: 1.5rem;
+}
+/* line 18, CSS/sass/_index.scss */
+html body .navbar .navbar-brand:hover {
+  color: #2c3e50;
+}
+/* line 25, CSS/sass/_index.scss */
+html body .navbar div .navbar-nav .nav-item .nav-link {
+  color: #2c3e50;
+}
+/* line 32, CSS/sass/_index.scss */
+html body .cover {
+  margin: 0px;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  text-align: center;
+  background-image: url("Img/Banni%C3%A8re%20Web%20Developpement%20WM.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* line 45, CSS/sass/_index.scss */
+html body .cover a {
+  width: 50px;
+  height: 50px;
+  padding: 2rem;
+  background-color: #e74c3c;
+  -webkit-mask-image: url("Img/Icons/arrow-with-circle-down.svg");
+  mask-image: url("Img/Icons/arrow-with-circle-down.svg");
+  mask-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+/* line 56, CSS/sass/_index.scss */
+html body .presentation {
+  background-color: #fff;
+  margin: 0px;
+  flex-direction: column;
+}
+/* line 60, CSS/sass/_index.scss */
+html body .presentation h1 {
+  margin: 50px auto 0px auto;
+  font-size: 50px;
+  color: #2c3e50;
+  text-align: center;
+}
+/* line 66, CSS/sass/_index.scss */
+html body .presentation p {
+  margin: 0 auto 50px auto;
+  text-align: center;
+  color: #2c3e50;
+}
+/* line 71, CSS/sass/_index.scss */
+html body .presentation .tripoint {
+  min-height: 270px;
+  padding: 50px 0px 0px;
+  margin: 0px;
+  background-color: #e74c3c;
+  justify-content: center;
+  justify-content: space-between;
+}
+/* line 79, CSS/sass/_index.scss */
+html body .presentation .tripoint div .disponibilite, html body .presentation .tripoint div .toutprojet, html body .presentation .tripoint div .formation {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+/* line 86, CSS/sass/_index.scss */
+html body .presentation .tripoint div .disponibilite {
+  -webkit-mask-image: url("Img/Icons/calendar.svg");
+  mask-image: url("Img/Icons/calendar.svg");
+  mask-repeat: no-repeat;
+}
+/* line 91, CSS/sass/_index.scss */
+html body .presentation .tripoint div .toutprojet {
+  -webkit-mask-image: url("Img/Icons/code.svg");
+  mask-image: url("Img/Icons/code.svg");
+  mask-repeat: no-repeat;
+}
+/* line 96, CSS/sass/_index.scss */
+html body .presentation .tripoint div .formation {
+  -webkit-mask-image: url("Img/Icons/open-book.svg");
+  mask-image: url("Img/Icons/open-book.svg");
+  mask-repeat: no-repeat;
+}
+/* line 101, CSS/sass/_index.scss */
+html body .presentation .tripoint div p, html body .presentation .tripoint div h4 {
+  color: #fff;
+  text-align: center;
+}
+/* line 107, CSS/sass/_index.scss */
+html body .presentation .projet {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 110, CSS/sass/_index.scss */
+html body .presentation .projet p {
+  margin: 0 auto 1rem auto;
+}
+/* line 113, CSS/sass/_index.scss */
+html body .presentation .projet a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/* line 122, CSS/sass/_index.scss */
+html body .presentation .projet a img {
+  width: auto;
+  height: auto;
+}
+/* line 126, CSS/sass/_index.scss */
+html body .presentation .projet a section {
+  background-color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  transition: all .2s;
+}
+/* line 139, CSS/sass/_index.scss */
+html body .presentation .projet a section div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+/* line 145, CSS/sass/_index.scss */
+html body .presentation .projet a section div h3 {
+  color: #fff;
+}
+/* line 148, CSS/sass/_index.scss */
+html body .presentation .projet a section div p {
+  color: #fff;
+}
+/* line 152, CSS/sass/_index.scss */
+html body .presentation .projet a section:hover {
+  opacity: 0.9;
+  height: 100%;
+}
+/* line 159, CSS/sass/_index.scss */
+html body .presentation .social-network-container {
+  min-height: 270px;
+  background-color: #2c3e50;
+  flex-direction: column;
+  padding: 50px 0 0px;
+}
+/* line 164, CSS/sass/_index.scss */
+html body .presentation .social-network-container h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 25px;
+}
+/* line 169, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network {
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* line 172, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network .linkedin, html body .presentation .social-network-container .social-network .stackoverflow, html body .presentation .social-network-container .social-network .twitter {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 180, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network .linkedin {
+  -webkit-mask-image: url("Img/Icons/linkedin.svg");
+  mask-image: url("Img/Icons/linkedin.svg");
+  mask-repeat: no-repeat;
+}
+/* line 185, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network .stackoverflow {
+  -webkit-mask-image: url("Img/Icons/stackoverflow.svg");
+  mask-image: url("Img/Icons/stackoverflow.svg");
+  mask-repeat: no-repeat;
+}
+/* line 190, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network .twitter {
+  -webkit-mask-image: url("Img/Icons/twitter.svg");
+  mask-image: url("Img/Icons/twitter.svg");
+  mask-repeat: no-repeat;
+}
+/* line 195, CSS/sass/_index.scss */
+html body .presentation .social-network-container .social-network a, html body .presentation .social-network-container .social-network p {
+  color: #fff;
+  text-align: center;
+}
+/* line 201, CSS/sass/_index.scss */
+html body .presentation .contact-container {
+  margin: 0px;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: #fff;
+}
+/* line 206, CSS/sass/_index.scss */
+html body .presentation .contact-container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #2c3e50;
+}
+/* line 211, CSS/sass/_index.scss */
+html body .presentation .contact-container p {
+  text-align: center;
+  color: #2c3e50;
+}
+/* line 215, CSS/sass/_index.scss */
+html body .presentation .contact-container .contact {
+  background-color: #fff;
+}
+/* line 218, CSS/sass/_index.scss */
+html body .presentation .contact-container .contact .contact-left .phone {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #2c3e50;
+  -webkit-mask-image: url("Img/Icons/phone.svg");
+  mask-image: url("Img/Icons/phone.svg");
+  mask-repeat: no-repeat;
+}
+/* line 227, CSS/sass/_index.scss */
+html body .presentation .contact-container .contact .contact-left p {
+  text-align: center;
+  color: #2c3e50;
+}
+/* line 233, CSS/sass/_index.scss */
+html body .presentation .contact-container .contact .contact-right .mail {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #2c3e50;
+  text-align: center;
+  color: #2c3e50;
+  -webkit-mask-image: url("Img/Icons/mail.svg");
+  mask-image: url("Img/Icons/mail.svg");
+  mask-repeat: no-repeat;
+}
+/* line 244, CSS/sass/_index.scss */
+html body .presentation .contact-container .contact .contact-right a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #2c3e50;
+}
+/* line 254, CSS/sass/_index.scss */
+html body .footer {
+  background-color: #fff;
+  margin: 0px;
+}
+/* line 257, CSS/sass/_index.scss */
+html body .footer legend {
+  text-align: center;
+  color: #e74c3c;
+}
+/* line 261, CSS/sass/_index.scss */
+html body .footer p {
+  font-style: italic;
+  font-size: 0.5rem;
+  text-align: center;
+}
