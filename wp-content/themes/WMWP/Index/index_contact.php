@@ -2,7 +2,7 @@
     <h2 >Restons en contact !</h2>
     <p>Envie de travailler avec moi? Appelez-moi ou envoyez-moi un courriel et je vous répondrais dans les plus brefs délais.</p>
     <div class="row contact">
-        <div class="contact-left col-xd-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="contact-left col-xd-12 col-sm-12 col-md-12 col-lg-4">
             <p class="phone" aria-hidden="true"></p>
             <p>06 65 30 63 09</p>
         </div>

@@ -69,7 +69,6 @@ html {
                 color:#2c3e50;
             }
             .tripoint {
-                min-height: 270px;
                 padding: 50px 0px 0px;
                 margin: 0px;
                 background-color: #e74c3c;
@@ -102,6 +101,9 @@ html {
                         color: #fff;
                         text-align: center;
                     }
+                    p{
+                        margin: 0 auto 50px auto;
+                    }
                 }
             }
             .projet {
@@ -118,10 +120,10 @@ html {
                     max-width: 650px;
                     margin: 0 auto;
                     padding: 0px;
-                    //min-height: 165px;
                     img {
                         width: auto;
                         height: auto;
+                        padding: 0 15px;
                     }
                     section {
                         background-color: #e74c3c;
@@ -211,9 +213,12 @@ html {
                 p{
                     text-align: center;
                     color: #2c3e50;
+                    margin-top: 0;
+                    margin-bottom: 1rem;
                 }
                 .contact{
                     background-color: #fff;
+                    justify-content: center;
                     .contact-left{
                         .phone{
                             width: 50px;
@@ -226,7 +231,9 @@ html {
                         }
                         p{
                             text-align: center;
-                            color:#2c3e50; 
+                            color:#2c3e50;
+                            margin-top: 0;
+                            margin-bottom: 1rem;
                         }
                     }
                     .contact-right{
