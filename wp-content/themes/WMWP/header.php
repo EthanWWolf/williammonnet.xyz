@@ -11,10 +11,13 @@
         <![endif]-->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Bienvenue | William Monnet</title>
+        <?php 
+            wp_head();
+        ?>
         <!-- Bootstrap core CSS -->
-        <link href="wp-content/themes/WMWP/Bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--<link href="wp-content/themes/WMWP/Bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
         <!-- Personnal CSS -->
-        <link href="wp-content/themes/WMWP/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <!--<link href="wp-content/themes/WMWP/style.css" media="screen, projection" rel="stylesheet" type="text/css" />-->
     </head>
 
     <body>

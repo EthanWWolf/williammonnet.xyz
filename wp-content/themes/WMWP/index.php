@@ -1,5 +1,7 @@
 <?php 
+    //die(var_dump($_SERVER['REQUEST_URI']));
     get_header();
+    if($_SERVER['REQUEST_URI'] == "/" || $_SERVER['REQUEST_URI'] == "/williammonnet.xyz/"):
 ?>
     <div id="cover" class="cover row">
         <a href="#suite" aria-hidden="true">
@@ -16,4 +18,6 @@
         ?>
     </article>
 <?php 
+    endif;
     get_footer();
+?>

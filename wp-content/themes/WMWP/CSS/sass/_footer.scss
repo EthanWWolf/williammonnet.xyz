@@ -1,0 +1,17 @@
+@import "vars";
+
+body{
+    .footer {
+        background-color: $c_white;
+        margin: 0px;
+        legend {
+            text-align: center;
+            color: $c_orange;
+        }
+        p {
+            font-style: italic;
+            font-size: 0.5rem;
+            text-align: center;
+        }
+    }
+}

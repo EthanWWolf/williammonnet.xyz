@@ -1,0 +1,24 @@
+@import "vars";
+
+body{
+    .navbar {
+        background-color: $c_white;
+        margin-bottom: 55px;
+        .navbar-brand {
+            color: $c_orange;
+            font-size: 1.5rem;
+            &:hover{
+                color: $c_blue;
+            }
+        }
+        div {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: $c_blue;
+                    }
+                }
+            }
+        }
+    }
+}
